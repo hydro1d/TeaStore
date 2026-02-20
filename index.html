@@ -13,23 +13,78 @@
 </head>
 
 <body>
-    <section class="grid grid-cols-2 container   mx-auto">
+    <section class="grid grid-cols-2 container border border-red-500   mx-auto">
         <div class="banner-left">
             <h2 class="text-[80px] font-bold">
                 It's good <br>
                 tea time at The <br> Tea House
             </h2>
-            <p class="text-gray-400 my-[30px]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button class="py-3 px-5 rounded-md font-semibold text-white bg-linear-to-r from-[#FF0000] to-[#FF8938]">Explore More
+            <p class="text-gray-400 my-7.5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                Taste Buds.</p>
+            <button
+                class="py-3 px-5 rounded-md font-semibold text-white bg-linear-to-r from-[#FF0000] to-[#FF8938]">Explore
+                More
                 <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right-long"></i></span>
             </button>
-            
+
         </div>
-        
-        <div class="banner-right">
+
+        <div class="banner-right  flex justify-end items-end relative">
             <img src="images/banner.png" alt="">
+
+            <div
+                class="bg-white rounded-xl shadow-2xl flex justify-center items-center gap-2 w-62.5 absolute bottom-3.75 left-55 py-6.25 px-3.75  ">
+                <img src="images/Group 5.png" alt="">
+                <div>
+                    <h2 class="font-bold text-2xl">5.00</h2>
+                    <p>Trust Pilot Rating</p>
+                </div>
+            </div>
+
         </div>
     </section>
-</body>
 
+     <!-- Featured section -->
+    <section class="container mx-auto my-[90px]">
+
+        <!-- Featured section header -->
+        <div class="text-center max-w-[65%] mx-auto mb-[50px]">
+            <h2 class="font-bold text-[45px]">Our Featured Products</h2>
+            <p class="text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+
+        <div class="featured-card-parent grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-4">
+
+            <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f400] p-7 text-center rounded-md">
+                <img src="./images/tea-1.png" alt="" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Milk Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f400] p-7 text-center rounded-md">
+                <img src="./images/tea-2.png" alt="" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Black Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f400] p-7 text-center rounded-md">
+                <img src="./images/tea-3.png" alt="" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Green Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+            <div class="featured-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f400] p-7 text-center rounded-md">
+
+                <img src="./images/tea-4.png" alt="" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl">Lemon Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
 </html>
